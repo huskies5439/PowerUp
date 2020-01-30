@@ -15,8 +15,8 @@ public class Attraper extends Command {
     requires(Robot.pince);
   }
 
-  // Called just before this Command runs the first time
-  @Override
+  // Called just before this Command runs the first time :)
+  @Override 
   protected void initialize() {
     Robot.pince.pince_ouverte();
   }
